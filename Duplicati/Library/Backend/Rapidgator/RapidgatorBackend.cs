@@ -217,6 +217,7 @@ namespace Duplicati.Library.Backend.Rapidgator
             .. AuthOptionsHelper.GetOptions()
         ];
 
+        public bool SupportsStreaming => true;
         public void Dispose()
         {
         }
